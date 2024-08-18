@@ -7,3 +7,11 @@ Insertion Sort
 ### [22,27,16,2,18,6] -> Insertion Sort
 
 Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+İlk elemanla sağındaki eleman karşılaştırılır. Daha küçük olan sola alınır.
+
+1. [22,27,16,2,18,6] 22 ve 27 doğru sırada. Bu şekilde bırakılır.
+2. [16,22,27,2,18,6] 27 ve 16 karşılaştırılır. 16 daha küçük olduğu için yer değiştirirler. 16, 22'den de küçük olduğu için onunla da yer değiştirir.
+3. [2,16,22,27,18,6] 2, 27'den, 22'den ve 16'dan küçük olduğu için en başa gelir. Geri kalan elemanlar da aynı mantıkla sıralanır.
+4. [2,16,18,22,27,6] 18 elemanı 2'den büyüktür ve sağına kayar, 16'dan da büyüktür ve sağına kayar 22'den küçüktür burada kalır.
+5. [2,6,16,18,22,27] 6 elemanı 2'den büyüktür ve sağına kayar, 16'dan küçüktür burada kalır. Böylelikle Dizimiş oluşmuş olur.
