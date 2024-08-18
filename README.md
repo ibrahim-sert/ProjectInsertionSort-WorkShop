@@ -4,9 +4,9 @@ Insertion Sort
 
 ## Proje-1
 
-### [22,27,16,2,18,6] -> Insertion Sort
+## [22,27,16,2,18,6] -> Insertion Sort
 
-#### Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+### Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 
 İlk elemanla sağındaki eleman karşılaştırılır. Daha küçük olan sola alınır.
 
@@ -16,13 +16,13 @@ Insertion Sort
 4. [2,16,18,22,27,6] 18 elemanı 2'den büyüktür ve sağına kayar, 16'dan da büyüktür ve sağına kayar 22'den küçüktür burada kalır.
 5. [2,6,16,18,22,27] 6 elemanı 2'den büyüktür ve sağına kayar, 16'dan küçüktür burada kalır. Böylelikle Dizimiş oluşmuş olur.
 
-#### Big-O gösterimini yazınız.
+### Big-O gösterimini yazınız.
 
 Insertion Sort algoritmasının en kötü durumda çalışması (O(n^2)) olarak ifade edilir. Çünkü her eleman, neredeyse tüm diğer elemanlarla karşılaştırılmak zorundadır. Ortalama durumda da yine (O(n^2)) olarak ifade edilir. En iyi durumda, yani dizi zaten sıralıysa, (O(n)) olur.
 
-#### Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
+### Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
 
 Time Complexity
 18 sayısı, sıralandıktan sonra dizinin ortasında yer alır. Bu nedenle, Average Case kapsamına girer.
 
-#### [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+### [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
