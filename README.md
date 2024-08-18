@@ -26,3 +26,15 @@ Time Complexity
 18 sayısı, sıralandıktan sonra dizinin ortasında yer alır. Bu nedenle, Average Case kapsamına girer.
 
 ### [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+Selection Sort Aşamaları
+Verilen dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+1. İlk adımda en küçük eleman (2) bulunur ve ilk elemanla yer değiştirilir:
+   [2, 3, 5, 8, 7, 9, 4, 15, 6]
+2. İkinci en küçük eleman (3) zaten ikinci sıradadır, yer değiştirme yapılmaz:
+   [2, 3, 5, 8, 7, 9, 4, 15, 6]
+3. Üçüncü en küçük eleman (4) bulunur ve üçüncü elemanla yer değiştirilir:
+   [2, 3, 4, 8, 7, 9, 5, 15, 6]
+4. Dördüncü en küçük eleman (5) bulunur ve dördüncü elemanla yer değiştirilir:
+   [2, 3, 4, 5, 7, 9, 8, 15, 6]
